@@ -13,7 +13,7 @@ module.exports = {
             user: 'root',
             password: 'navgurukul',
 
-            database: 'information',
+            database: 'user',
             charset: 'utf8',
 
         }
