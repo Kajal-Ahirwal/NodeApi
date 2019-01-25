@@ -22,7 +22,7 @@ const routes=[
         handler:async(request,h)=>{
             let pr = (resolve,reject) => {
                 knex("users").select("name","username","email")
-                    .then((result)=>{
+                    .then(result)=>{
                         return resolve(h.response(result));
                     })
                     .catch((error)=>{
